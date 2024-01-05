@@ -4,7 +4,7 @@ import MarkdownIt from 'markdown-it';
 
 export default async function handler(req, res) {
  try {
-  const readmePath = path.resolve(process.cwd(), 'public/Thuranira_resume.pdf');
+  const readmePath = path.resolve(process.cwd(), 'public/myskills.md');
   const readme = await fs.readFile(readmePath, 'utf-8');
 
   // use markdown html to reander the readme content to html

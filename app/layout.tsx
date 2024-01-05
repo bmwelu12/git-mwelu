@@ -6,8 +6,8 @@ import Head from 'next/head';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
- title: 'Boniface Thuranira Portfolio',
- description: 'Student @ ERAU-Prescott | Computer Engineer - Space',
+ title: 'Breda Mwelu Portfolio',
+ description: 'Student @ Drew University | Computer Science and French',
 };
 
 export default function RootLayout({
